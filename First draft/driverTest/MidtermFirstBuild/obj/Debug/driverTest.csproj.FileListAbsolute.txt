@@ -1,0 +1,15 @@
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\bin\Debug\MidtermFirstBuild.exe.config
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\bin\Debug\MidtermFirstBuild.exe
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\bin\Debug\MidtermFirstBuild.pdb
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.Properties.Resources.resources
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\driverTest.csproj.GenerateResource.Cache
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\driverTest.csproj.CoreCompileInputs.cache
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.exe
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.pdb
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.Test.resources
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.Form1.resources
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.CombatScreen.resources
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.endScreen.resources
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.InventoryScreen.resources
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\driverTest.csprojResolveAssemblyReference.cache
+C:\Users\corba\Desktop\VCS\Semester 3 - Copy\First 40\Midterm\First draft\driverTest\MidtermFirstBuild\obj\Debug\MidtermFirstBuild.GameWonScreen.resources

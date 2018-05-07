@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AC484348-A34E-4641-85F2-C1FBC9FB6BD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MidtermFirstBuild</RootNamespace>
+    <AssemblyName>MidtermFirstBuild</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Armor\BronzeGreaves.cs" />
+    <Compile Include="Armor\BronzeHelmet.cs" />
+    <Compile Include="BagFullException.cs" />
+    <Compile Include="CombatScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CombatScreen.Designer.cs">
+      <DependentUpon>CombatScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameWonScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameWonScreen.Designer.cs">
+      <DependentUpon>GameWonScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weapons\DamageSpell.cs" />
+    <Compile Include="endScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="endScreen.Designer.cs">
+      <DependentUpon>endScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquippedItems.cs" />
+    <Compile Include="InvetoryScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InvetoryScreen.Designer.cs">
+      <DependentUpon>InvetoryScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISpell.cs" />
+    <Compile Include="Weapons\NaturalWeapon.cs" />
+    <Compile Include="StoredItems.cs" />
+    <Compile Include="Weapons\BronzeSword.cs" />
+    <Compile Include="Armor\BronzeVambraces.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Armor\Gambeson.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="Interfaces\IArmor.cs" />
+    <Compile Include="InventorySlotId.cs" />
+    <Compile Include="Interfaces\IPotion.cs" />
+    <Compile Include="Armor\IronChestpiece.cs" />
+    <Compile Include="Armor\IronGreaves.cs" />
+    <Compile Include="Armor\IronHelmet.cs" />
+    <Compile Include="Weapons\IronSword.cs" />
+    <Compile Include="Armor\IronVambraces.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Interfaces\IWeapon.cs" />
+    <Compile Include="Potions\LargeHealthPotion.cs" />
+    <Compile Include="Potions\MediumHealthPotion.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomEnemyFactory.cs" />
+    <Compile Include="Potions\RandomHealthPotion.cs" />
+    <Compile Include="RandomItemFactory.cs" />
+    <Compile Include="Potions\SmallHealthPotion.cs" />
+    <Compile Include="Armor\SteelChestPiece.cs" />
+    <Compile Include="Armor\SteelGreaves.cs" />
+    <Compile Include="Armor\SteelHelmet.cs" />
+    <Compile Include="Weapons\SteelSword.cs" />
+    <Compile Include="Armor\SteelVambraces.cs" />
+    <Compile Include="Test.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weapons\UltraSword.cs" />
+    <EmbeddedResource Include="CombatScreen.resx">
+      <DependentUpon>CombatScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="endScreen.resx">
+      <DependentUpon>endScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameWonScreen.resx">
+      <DependentUpon>GameWonScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvetoryScreen.resx">
+      <DependentUpon>InvetoryScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="death_sound.wav" />
+    <None Include="Resources\Title.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
